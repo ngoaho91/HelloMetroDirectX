@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloMetroDirectX", "HelloMetroDirectX", "{06F07D82-1978-438F-8712-029DC0A3F779}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloMetroDirectX.Shared", "HelloMetroDirectX\HelloMetroDirectX.Shared\HelloMetroDirectX.Shared.vcxitems", "{3D72A236-7FF1-4948-A171-F496827FF03A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloMetroDirectX.Windows", "HelloMetroDirectX\HelloMetroDirectX.Windows\HelloMetroDirectX.Windows.vcxproj", "{81B63A00-4007-442D-B9EC-E1CF4BC19C43}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloMetroDirectX.WindowsPhone", "HelloMetroDirectX\HelloMetroDirectX.WindowsPhone\HelloMetroDirectX.WindowsPhone.vcxproj", "{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		HelloMetroDirectX\HelloMetroDirectX.Shared\HelloMetroDirectX.Shared.vcxitems*{3d72a236-7ff1-4948-a171-f496827ff03a}*SharedItemsImports = 9
+		HelloMetroDirectX\HelloMetroDirectX.Shared\HelloMetroDirectX.Shared.vcxitems*{0cc7b643-7edd-4e67-a5ad-cd68888635c8}*SharedItemsImports = 4
+		HelloMetroDirectX\HelloMetroDirectX.Shared\HelloMetroDirectX.Shared.vcxitems*{81b63a00-4007-442d-b9ec-e1cf4bc19c43}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Debug|ARM.ActiveCfg = Debug|ARM
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Debug|ARM.Build.0 = Debug|ARM
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Debug|ARM.Deploy.0 = Debug|ARM
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Debug|Win32.Build.0 = Debug|Win32
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Debug|Win32.Deploy.0 = Debug|Win32
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Debug|x64.ActiveCfg = Debug|x64
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Debug|x64.Build.0 = Debug|x64
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Debug|x64.Deploy.0 = Debug|x64
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Release|ARM.ActiveCfg = Release|ARM
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Release|ARM.Build.0 = Release|ARM
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Release|ARM.Deploy.0 = Release|ARM
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Release|Win32.ActiveCfg = Release|Win32
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Release|Win32.Build.0 = Release|Win32
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Release|Win32.Deploy.0 = Release|Win32
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Release|x64.ActiveCfg = Release|x64
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Release|x64.Build.0 = Release|x64
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43}.Release|x64.Deploy.0 = Release|x64
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Debug|ARM.Build.0 = Debug|ARM
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Debug|ARM.Deploy.0 = Debug|ARM
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Debug|Win32.Build.0 = Debug|Win32
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Debug|Win32.Deploy.0 = Debug|Win32
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Debug|x64.ActiveCfg = Debug|Win32
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Release|ARM.ActiveCfg = Release|ARM
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Release|ARM.Build.0 = Release|ARM
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Release|ARM.Deploy.0 = Release|ARM
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Release|Win32.ActiveCfg = Release|Win32
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Release|Win32.Build.0 = Release|Win32
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Release|Win32.Deploy.0 = Release|Win32
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D72A236-7FF1-4948-A171-F496827FF03A} = {06F07D82-1978-438F-8712-029DC0A3F779}
+		{81B63A00-4007-442D-B9EC-E1CF4BC19C43} = {06F07D82-1978-438F-8712-029DC0A3F779}
+		{0CC7B643-7EDD-4E67-A5AD-CD68888635C8} = {06F07D82-1978-438F-8712-029DC0A3F779}
+	EndGlobalSection
+EndGlobal

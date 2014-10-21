@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>81b63a00-4007-442d-b9ec-e1cf4bc19c43</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>b3311be8-112d-4f0d-a183-1ff006aa426b</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>52b51152-afaa-47a6-b7c1-7fb7a5733650</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HelloMetroDirectX.Windows_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Logo.scale-180.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Logo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Logo.scale-80.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square70x70Logo.scale-180.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square70x70Logo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square70x70Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square70x70Logo.scale-80.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-180.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-80.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-180.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-80.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-180.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-80.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-180.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-180.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-180.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

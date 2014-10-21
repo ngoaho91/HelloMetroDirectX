@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{3d72a236-7ff1-4948-a171-f496827ff03a}</ItemsProjectGuid>
+    <ItemsRootNamespace>HelloMetroDirectX</ItemsRootNamespace>
+    <ItemsProjectName>HelloMetroDirectX.Shared</ItemsProjectName>
+    <SharedGUID>347fca2d-311b-4b35-9ed3-0f2071d3ad04</SharedGUID>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Cube.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Game.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)main.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WICTextureLoader.cpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Cube.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Game.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PlatformHelpers.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WICTextureLoader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="$(MSBuildThisFileDirectory)PixelShader.hlsl">
+      <ShaderType>Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)VertexShader.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)bricks.png">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Wood.png">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Image>
+  </ItemGroup>
+</Project>
